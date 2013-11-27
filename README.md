@@ -46,19 +46,45 @@ an EC number in this field to create a pathologic entry.
    <tr>
      <td>GFF3</td><td>Pathologic</td>
    </tr>
+   <tr>
      <td>Column 1: "seqid"</td><td>Output files (one per file).</td>
+   </tr>
+   <tr>
      <td>Column 2: "source"</td><td>Ignored.</td>
+   </tr>
+   <tr>
      <td>Column 3: "type"</td><td>Selected lines through -t parameter</td>
+   </tr>
+   <tr>
      <td>Column 4: "start"</td><td>STARTBASE for each entry</td>
+   </tr>
+   <tr>
      <td>Column 5: "end"</td><td>ENDBASE for each entry</td>
+   </tr>
+   <tr>
      <td>Column 6: "score"</td><td>Ignored.</td>
+   </tr>
+   <tr>
      <td>Column 7: "strand"</td><td>Switch STARTBASE <-> ENDBASE.</td> 
+   </tr>
+   <tr>
      <td>Column 8: "phase"</td><td>Ignored.</td>
+   </tr>
+   <tr>
      <td>Column 9: "attributes"</td><td>See below</td>
+   </tr>
+   <tr>
      <td>ID</td><td>ID</td>
+   </tr>
+   <tr>
      <td>Name</td><td>NAME</td>
+   </tr>
+   <tr>
      <td>Alias</td><td>SYNONYM</td>
+   </tr>
+   <tr>
      <td>Note</td><td>GENE-COMMENT and EC</td>
+   </tr>   
 </table>
 
    Finally if you need to create one FASTA file per sequence, you can use the
