@@ -4,7 +4,7 @@ solcyctools
   Perl tool package to create pathologic files (.pf) for genomic and 
 transcriptomic projects
 
-* INTRODUCTION:
+= * INTRODUCTION: =
 
    Pathways tools is a software to create metabolic pathway databases such as
 MetaCyc, EcoCyc or AraCyc (http://biocyc.org/publications.shtml). Nevertheless
@@ -22,12 +22,12 @@ descriptions.
    B) Trancriptomics (input file: FASTA assembled transcriptome).
 
 
-1) GENOMICS PIPELINE:
+= 1) GENOMICS PIPELINE: =
 
    The genomics pipeline uses a GFF with annotations to create the pathologic
 files, so initially the pipeline should be as easy as:
 
-1.1) Easy Approach:
+== 1.1) Easy Approach: ==
 
    % gff2pathologic.pl -g species.gff
 
@@ -71,7 +71,7 @@ script:
    Nevertheless it is possible that your GFF file doesn't have any useful
 annotation (or perhaps you want to enhance it).
 
-1.2) Complete Approach:
+== 1.2) Complete Approach: ==
 
   It involves the functional reannotation and use of the new annotation to
 enhance the EC/meaninful description assigment to each of the sequences during
