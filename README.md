@@ -42,23 +42,25 @@ an EC number in this field to create a pathologic entry.
 
   A gff line will be converted according to:
 
-   +--------------------------+-----------------------------------------+
-   | GFF3                     |    Pathologic                           |
-   +--------------------------+-----------------------------------------+
-   | - Column 1: "seqid"      =>   Output files (one per file).         |
-   | - Column 2: "source"     =>   Ignored.                             |
-   | - Column 3: "type"       =>   Selected lines through -t parameter. |
-   | - Column 4: "start"      =>   STARTBASE for each entry             |
-   | - Column 5: "end"        =>   ENDBASE for each entry               |
-   | - Column 6: "score"      =>   Ignored.                             |
-   | - Column 7: "strand"     =>   Switch STARTBASE <-> ENDBASE.        |   
-   | - Column 8: "phase"      =>   Ignored.                             |
-   | - Column 9: "attributes" =>                                        | 
-   |            + ID          ->   ID                                   |
-   |            + Name        ->   NAME                                 |
-   |            + Alias       ->   SYNONYM                              |
-   |            + Note        ->   GENE-COMMENT                         |
-   +---------------------------+----------------------------------------+
+>
+>   +--------------------------+-----------------------------------------+
+>   | GFF3                     |    Pathologic                           |
+>   +--------------------------+-----------------------------------------+
+>   | - Column 1: "seqid"      =>   Output files (one per file).         |
+>   | - Column 2: "source"     =>   Ignored.                             |
+>   | - Column 3: "type"       =>   Selected lines through -t parameter. |
+>   | - Column 4: "start"      =>   STARTBASE for each entry             |
+>   | - Column 5: "end"        =>   ENDBASE for each entry               |
+>   | - Column 6: "score"      =>   Ignored.                             |
+>   | - Column 7: "strand"     =>   Switch STARTBASE <-> ENDBASE.        |   
+>   | - Column 8: "phase"      =>   Ignored.                             |
+>   | - Column 9: "attributes" =>                                        | 
+>   |            + ID          ->   ID                                   |
+>   |            + Name        ->   NAME                                 |
+>   |            + Alias       ->   SYNONYM                              |
+>   |            + Note        ->   GENE-COMMENT                         |
+>   +---------------------------+----------------------------------------+
+>
 
    Finally if you need to create one FASTA file per sequence, you can use the
 script: 
