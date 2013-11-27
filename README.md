@@ -42,25 +42,24 @@ an EC number in this field to create a pathologic entry.
 
   A gff line will be converted according to:
 
-<p>
-   +--------------------------+-----------------------------------------+
-   | GFF3                     |    Pathologic                           |
-   +--------------------------+-----------------------------------------+
-   | - Column 1: "seqid"      =>   Output files (one per file).         |
-   | - Column 2: "source"     =>   Ignored.                             |
-   | - Column 3: "type"       =>   Selected lines through -t parameter. |
-   | - Column 4: "start"      =>   STARTBASE for each entry             |
-   | - Column 5: "end"        =>   ENDBASE for each entry               |
-   | - Column 6: "score"      =>   Ignored.                             |
-   | - Column 7: "strand"     =>   Switch STARTBASE <-> ENDBASE.        |   
-   | - Column 8: "phase"      =>   Ignored.                             |
-   | - Column 9: "attributes" =>                                        | 
-   |            + ID          ->   ID                                   |
-   |            + Name        ->   NAME                                 |
-   |            + Alias       ->   SYNONYM                              |
-   |            + Note        ->   GENE-COMMENT                         |
-   +---------------------------+----------------------------------------+
-</p>
+<table>
+   <tr>
+     <td>GFF3</td><td>Pathologic</td>
+   </tr>
+     <td>Column 1: "seqid"</td><td>Output files (one per file).</td>
+     <td>Column 2: "source"</td><td>Ignored.</td>
+     <td>Column 3: "type"</td><td>Selected lines through -t parameter</td>
+     <td>Column 4: "start"</td><td>STARTBASE for each entry</td>
+     <td>Column 5: "end"</td><td>ENDBASE for each entry</td>
+     <td>Column 6: "score"</td><td>Ignored.</td>
+     <td>Column 7: "strand"</td><td>Switch STARTBASE <-> ENDBASE.</td> 
+     <td>Column 8: "phase"</td><td>Ignored.</td>
+     <td>Column 9: "attributes"</td><td>See below</td>
+     <td>ID</td><td>ID</td>
+     <td>Name</td><td>NAME</td>
+     <td>Alias</td><td>SYNONYM</td>
+     <td>Note</td><td>GENE-COMMENT and EC</td>
+</table>
 
    Finally if you need to create one FASTA file per sequence, you can use the
 script: 
