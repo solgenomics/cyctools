@@ -1003,7 +1003,7 @@ foreach my $selseq (sort keys %sel_entries) {
 		push @ecs, @{$ecs{$id}};
 	    }
 	    elsif (defined $name && exists $ecs{$name}) {
-		push @ecs, @{$ecs{name}};
+		push @ecs, @{$ecs{$name}};
 	    }
 	    if ($opt_S) {
 		foreach my $synon (@synonyms) {
