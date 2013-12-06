@@ -476,7 +476,10 @@ if ($opt_C || $opt_I) {
 	if (defined $feat_id) {
 
 	    my $id = $feat_id->value();
-	    $id =~ s/.+?://;
+	    
+	    if (defined $id) {
+		$id =~ s/.+?://;
+	    }
 
 	    if (defined $id && $soterm =~ m/^(CDS|intron)$/) {
 
