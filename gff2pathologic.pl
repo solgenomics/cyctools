@@ -1042,7 +1042,7 @@ foreach my $selseq (sort keys %sel_entries) {
 		push @dblinks, @{$dblinks{$id}};
 	    }
 	    elsif (defined $name && exists $dblinks{$name}) {
-		push @dblinks, @{$dblinks{name}};
+		push @dblinks, @{$dblinks{$name}};
 	    }
 	    ## Add the dblink for the synonyms if exists
 	    if ($opt_S) {
