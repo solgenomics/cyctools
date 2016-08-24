@@ -1,4 +1,4 @@
-solcyctools
+cyctools
 ===========
 
   Perl tool package to create pathologic files (.pf) for genomic and 
